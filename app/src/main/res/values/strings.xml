@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TestLogin</string>
+    <!--Menu Drawer Strings-->
+    <string name="sign_in">Вход </string>
+    <string name="sign_up">Регистрация</string>
+    <string name="sign_out">Выход</string>
+    <string name="title_account">Аккаунт</string>
+    <string name="not_reg">Зайдите или зарегистрируйтесь!</string>
+    <string name="token">1234</string>
+
+    <!--Sign Dialog-->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_action">Войти</string>
+    <string name="sign_up_action">Зарегистрироваться</string>
+    <string name="forget_password">Забыли пароль?</string>
+    <string name="sign_up_error">Не удалось зарегистрироваться</string>
+    <string name="send_verification_done">Вы зарегистрировались. Для подтверждения зайдите в почту.</string>
+    <string name="send_verification_error">Забыли пароль? </string>
+    <string name="sign_in_error">Не удалось войти</string>
+    <string name="sign_reset_message">Введите Ваш email для восстановления пароля</string>
+    <string name="email_reset_password_was_sent">Ссылка для восстановления отправлена на Вашу почту.</string>
+    <string name="link_done">Email успешно подключен к Google аккаунту</string>
+    <string name="entre_to_google_account">Данный e-mail уже зарегистрирован</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

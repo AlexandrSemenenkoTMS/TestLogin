@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514321780024",
+    "project_id": "testlogin-a4854",
+    "storage_bucket": "testlogin-a4854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514321780024:android:e723adcf71df23ee7ec5cd",
+        "android_client_info": {
+          "package_name": "dev.fest.testlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514321780024-2htvj62scn97lph2e8f3g6kp9me5ohn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.fest.testlogin",
+            "certificate_hash": "d2962af94b20927c1660c5ac6a8675282096a110"
+          }
+        },
+        {
+          "client_id": "514321780024-l8en1ok6apvqql4a82312ul7ft3jums8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmUd9f4BttaqaArMMlU1-wP7qOR19hiHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514321780024-l8en1ok6apvqql4a82312ul7ft3jums8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

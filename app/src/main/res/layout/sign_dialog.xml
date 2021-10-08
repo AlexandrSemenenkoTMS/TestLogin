@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewSignTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSignEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDialogMessage" />
+
+    <EditText
+        android:id="@+id/editTextSignPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSignEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSignEmail" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/buttonSignInGoogle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Button"
+        app:buttonSize="icon_only"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSignUpIn"
+        app:layout_constraintStart_toStartOf="@+id/buttonSignUpIn"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSignPassword" />
+
+    <Button
+        android:id="@+id/buttonSignUpIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sign_up_action"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:buttonSize="standard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/editTextSignEmail"
+        app:layout_constraintStart_toStartOf="@id/editTextSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignInGoogle"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <Button
+        android:id="@+id/buttonForgetPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/forget_password"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSignEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUpIn" />
+
+    <TextView
+        android:id="@+id/textViewDialogMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sign_reset_message"
+        android:textColor="@android:color/holo_red_light"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/editTextSignEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextSignEmail"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSignTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
